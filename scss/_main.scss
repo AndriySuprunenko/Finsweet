@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: $fs-base + px;
+  font-family: $f-base;
+  background-color: $c-default;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  text-decoration: none;
+  font-size: medium;
+  font-weight: normal;
+  line-height: normal;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+svg {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+li {
+  list-style: none;
+}
+
+.icon {
+  display: inline-block;
+  stroke: currentColor;
+  fill: currentColor;
+  height: 1em;
+  width: 1em;
+
+  &:not(.has-stroke) {
+    stroke-width: 0;
+  }
+}
